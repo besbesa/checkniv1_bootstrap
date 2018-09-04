@@ -1,0 +1,111 @@
+body {
+    margin:0px !important;
+}
+.code {
+    background-image: url('../res/4.jpg');
+    width:100%;
+    height:45vh;
+    background-repeat: no-repeat;
+    background-size: 1400px 900px;
+    top: 0px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+}
+.me {
+    border-radius: 50%;
+    width:240px;
+    margin-top: -7%;
+    margin-left: 42%;
+    margin:auto;
+    position:relative;
+    top:-125px;
+    display:block;
+}
+.container {
+    padding-top:4%;
+}
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+    color: rgb(33, 150, 243);
+}
+.title1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+    color: rgb(33, 150, 243);
+}
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+}
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size:250% ;
+    margin: 0px !important;
+}
+.name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.function {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 150%;
+    color: rgb(102, 102, 102);
+}
+.comptes {
+    text-align: center;
+    color: rgb(33, 150, 243);
+    margin-top: -5%;
+}
+.comptes i {
+    margin-left:1%;
+}
+.comptes i:hover {
+    color:rgb(102, 102, 102);
+}
+.interests {
+    margin-top:6%;
+}
+.interests i:hover {
+    color: rgb(33, 150, 243);
+    transform: rotate(360deg);
+    transition: all .40s;
+}
+.design { 
+    background-color:white;
+    text-align: center;
+    font-size:450%
+}
+.interests p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20%;
+    margin-top: 30px;   
+    /* opacity:  */
+    position: relative;
+    left: -30px;
+    opacity: 0;
+}
+.projects img {
+    box-shadow: 0 2px 2px rgb(33, 150, 243);
+    padding-left:0% !important;
+    padding-right:0% !important;
+}
+.projects img:hover {
+    cursor: pointer;
+    box-shadow:none;
+}
+.bcd {
+    margin-bottom:3%;
+}
+.projects {
+    margin-left:2%;
+}
+.show {
+    left: 0 !important;
+    opacity: 1 !important;
+    transition: all .37s ease-in-out;
+    color: #2196F3 !important;
+}
